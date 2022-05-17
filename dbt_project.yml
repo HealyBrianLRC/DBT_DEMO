@@ -36,3 +36,16 @@ models:
     # Applies to all files under models/example/
     example:
       materialized: view
+    econ_example:
+      stg:
+        schema: PUBLIC
+        materialized: ephemeral  
+      cur:
+        materialized: view
+        schema: cur
+      cons: 
+        materialized: table  
+        schema: cons  
+
+seeds: 
+  schema: cur

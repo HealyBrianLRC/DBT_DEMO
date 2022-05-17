@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: Public
+    tables:
+      - name: CPI
+      - name: REALGDP
+      - name: STATE_2020_GDP
+      - name: REALGDP_DUP
+
+  - name: HOUSING_DATA
+    tables:
+      - name: HOUSINGPRICES
+      - name: PERMITS

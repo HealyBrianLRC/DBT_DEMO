@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: REALGDP
+    columns:
+      - name: date_Q
+        tests:
+          - unique
